@@ -1,0 +1,40 @@
+/* Styles pour le formulaire de réservation */
+#reservation-form {
+    max-width: 400px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centrer le formulaire horizontalement */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacement entre les groupes d'éléments */
+}
+
+label {
+    display: block; /* Afficher les labels sur une ligne distincte */
+    font-weight: bold; /* Texte en gras */
+    margin-bottom: 5px; /* Espacement sous les labels */
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%; /* La largeur des champs de texte et de sélection est de 100% */
+    padding: 10px; /* Espacement interne des champs */
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    margin-bottom: 10px; /* Espacement sous les champs */
+}
+
+.button {
+    background-color: #0073e6; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 10px 20px; /* Espacement interne du bouton */
+    font-size: 16px; /* Taille de la police du bouton */
+    cursor: pointer; /* Curseur pointeur */
+}
+
+.button:hover {
+    background-color: #0055a3; /* Couleur de fond au survol */
+}
